@@ -54,13 +54,13 @@
             padding:4px 14px;border-radius:99px;display:inline-block;margin-bottom:18px;}
     .hero-content h1{font-size:clamp(30px,4.5vw,48px);line-height:1.15;margin-bottom:16px;}
     .hero-content h1 em{font-style:normal;color:var(--accent);}
-    .hero-sub{font-size:clamp(14px,1.4vw,16px);color:var(--muted);
+    .hero-sub{font-size:clamp(16px,1.6vw,18px);color:var(--muted);
               line-height:1.8;margin-bottom:28px;max-width:420px;}
     .hero-stats{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin:28px 0;}
     .stat-card{background:var(--card-bg);border:1px solid var(--line);
                padding:14px 8px;border-radius:14px;text-align:center;}
     .stat-card strong{display:block;font-size:22px;color:var(--accent);margin-bottom:3px;}
-    .stat-card span{font-size:12px;color:var(--muted);}
+    .stat-card span{font-size:14px;color:var(--muted);}
     .hero-btns{display:flex;gap:12px;flex-wrap:wrap;}
     .hero-img{position:relative;}
     .hero-img::before{content:'';position:absolute;bottom:-20px;left:50%;
@@ -103,9 +103,9 @@
     .white-card{background:#f5f7f3;color:#111;border-radius:var(--radius);
                 padding:28px 32px;margin-top:20px;}
     .white-card h3{font-size:16px;font-weight:700;margin-bottom:8px;}
-    .white-card p{font-size:14px;color:#444;line-height:1.75;margin-bottom:0;}
+    .white-card p{font-size:16px;color:#444;line-height:1.75;margin-bottom:0;}
     .big-num{font-size:40px;font-weight:800;color:#0b0d10;line-height:1;margin-bottom:4px;}
-    .big-num span{font-size:15px;font-weight:500;color:#555;}
+    .big-num span{font-size:16px;font-weight:500;color:#555;}
 
     /* ── PHASE GRID ── */
     .phase-grid{display:grid;grid-template-columns:1fr 1fr;gap:2px;
@@ -119,13 +119,13 @@
                 line-height:1;margin-bottom:6px;}
     .phase-dose strong{font-weight:700;color:var(--accent);}
     .phase-title{font-size:16px;font-weight:600;color:var(--text);margin-bottom:10px;}
-    .phase-desc{font-size:14px;color:var(--muted);line-height:1.8;}
+    .phase-desc{font-size:16px;color:var(--muted);line-height:1.8;}
 
     /* ── DOCTOR ── */
     .doctor-wrap{border-left:2px solid var(--accent);padding-left:24px;margin:32px 0;}
-    .doctor-wrap blockquote{font-size:16px;color:var(--text);
+    .doctor-wrap blockquote{font-size:17px;color:var(--text);
                             line-height:1.85;font-style:italic;margin-bottom:14px;}
-    .doctor-credit{font-size:14px;color:var(--muted);}
+    .doctor-credit{font-size:16px;color:var(--muted);}
     .doctor-credit strong{color:var(--text);display:block;font-weight:600;margin-bottom:3px;}
     .credential{display:inline-block;font-size:11px;letter-spacing:.08em;
                 color:var(--accent);border:1px solid var(--line);
@@ -137,7 +137,7 @@
     .spec-grid{display:grid;grid-template-columns:1fr 1fr;gap:40px;align-items:start;}
     .info-table{width:100%;border-collapse:collapse;margin:0;}
     .info-table th,.info-table td{padding:13px 0;border-bottom:1px solid var(--line);
-                                  text-align:left;font-size:14px;}
+                                  text-align:left;font-size:16px;}
     .info-table th{color:var(--muted);width:34%;font-weight:500;}
     .info-table td{color:var(--text);font-weight:500;}
 
@@ -153,19 +153,19 @@
         border-bottom:1px solid #ccc;font-size:13px;}
     .nr.last{border-bottom:4px solid #000;}
     .nr.sub{padding-left:14px;font-size:12px;}
-    .nf{font-size:11px;margin-top:10px;color:#444;line-height:1.6;}
+    .nf{font-size:14px;margin-top:10px;color:#444;line-height:1.6;}
 
     /* ── FAQ ── */
     .faq-item{border-bottom:1px solid var(--line);}
     .faq-q{width:100%;background:none;border:none;color:var(--text);
-           font-size:15px;font-weight:500;text-align:left;padding:20px 0;
+           font-size:16px;font-weight:500;text-align:left;padding:20px 0;
            cursor:pointer;display:flex;justify-content:space-between;
            align-items:center;gap:16px;font-family:var(--font);transition:color .2s;}
     .faq-q:hover{color:var(--accent);}
     .faq-icon{flex-shrink:0;font-size:22px;color:var(--accent);
               line-height:1;transition:transform .2s;}
     .faq-item.open .faq-icon{transform:rotate(45deg);}
-    .faq-a{display:none;padding:0 0 18px;font-size:14px;
+    .faq-a{display:none;padding:0 0 18px;font-size:16px;
            color:var(--muted);line-height:1.85;}
     .faq-item.open .faq-a{display:block;}
 
@@ -178,7 +178,7 @@
     .social-link{font-size:14px;color:var(--muted);text-decoration:none;
                  letter-spacing:.05em;transition:color .2s;}
     .social-link:hover{color:var(--accent);}
-    .disclaimer{font-size:12px;color:rgba(255,255,255,.25);
+    .disclaimer{font-size:14px;color:rgba(255,255,255,.25);
                 margin-top:36px;line-height:1.7;}
 
     /* ── RESPONSIVE ── */
@@ -261,7 +261,7 @@
       <p class="sec-label">WHY CREATINE</p>
       <h2 class="sec-title">純粹，是不做多餘的干擾</h2>
       <p class="sec-body">脈衝星純肌酸只有一個成分——100% Creatine Monohydrate。不添加任何抗結塊劑、流動劑或人工香料。每一次補充，你攝取到的就是純粹的肌酸。</p>
-      <ul style="color:var(--muted);padding-left:20px;font-size:14px;line-height:2.2;">
+      <ul style="color:var(--muted);padding-left:20px;font-size:16px;line-height:2.2;">
         <li>素食者友善（Vegan Friendly）</li>
         <li>微粉化處理，溶解度高、無異味</li>
         <li>適合長期固定補充，不需停藥期</li>
